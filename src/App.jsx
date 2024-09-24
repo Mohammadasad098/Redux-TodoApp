@@ -54,7 +54,7 @@ const editTodoInRedux = (index) => {
     <div className='text-4xl my-8'>Redux TodoApp</div>
     <form className='my-2' onSubmit={addTodoInRedux}>
       <input className="input input-bordered w-full max-w-xs my-3" type="text" ref={todoVal} required/> <br />
-      <button class="btn btn-error" type='submit'>Submit</button>
+      <button class="btn btn-error" type='submit'>Add Todo</button>
     </form>
         <ul>
           {selector.length > 0 ? selector.map((item , index) => {
